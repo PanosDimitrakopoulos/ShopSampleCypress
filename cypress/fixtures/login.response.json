@@ -1,0 +1,32 @@
+
+{
+  "status": "ok",
+  "error_code": "success",
+  "message": "SUCCESS",
+  "data": {
+    "session_id": "7ca86a66-f6aa-487d-be33-9dd51d74bb14",
+    "user": {
+      "id": 4640641,
+      "first_name": "Test",
+      "first_name_in_vocative": "test.test+22",
+      "last_name": "",
+      "user_name": "test@test.com.gr",
+      "email": "test@test.com.gr",
+      "cellphone": "690000000",
+      "verified": true,
+      "date_of_birth": null,
+      "consents": [
+        {
+          "type": "is_adult",
+          "value": false,
+          "timestamp": 1622462787279
+        },
+        {
+          "type": "is_dob_verified",
+          "value": false,
+          "timestamp": 1622462787279
+        }]
+    }
+  },
+  "provisioning": {}
+}

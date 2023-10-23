@@ -1,0 +1,16 @@
+{
+  "name": "sentinel",
+  "version": "1.0.0",
+  "description": "e2e testing",
+  "main": "index.js",
+  "repository": "https://github.com/PanosDimitrakopoulos/ShopSample",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^8.1.0",
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "open": "./node_modules/.bin/cypress open",
+    "test:efood": "./node_modules/.bin/cypress run --headless --spec ./cypress/integration/ShopTests/*.spec.ts"
+  }
+}
