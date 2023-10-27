@@ -12,8 +12,7 @@ This README provides an overview of the generic ShopSasmpleCypress project to he
 - [Cypress Configuration](#cypress-configuration)
 - [CI/CD Integration](#cicd-integration)
 - [Best Practices](#best-practices)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Prerequisites
 
@@ -27,6 +26,7 @@ Before getting started with this sample Cypress project, make sure you have the 
 
 The project structure is organized as follows:
 
+```
 shopsamplecypress/
 ├── cypress/
 | ├── fixtures/
@@ -38,7 +38,7 @@ shopsamplecypress/
 ├── cypress.json
 ├── package.json
 ├── README.md
-
+```
 
 
 - `cypress/`: This directory contains the core Cypress files.
@@ -96,19 +96,3 @@ To integrate this project into your CI/CD pipeline, you can use Cypress as part 
 Keep your tests focused, independent, and maintainable.
 Use custom commands and utilities to keep your test code DRY (Don't Repeat Yourself).
 Regularly update dependencies to benefit from the latest features and security patches.
-Contributing
-If you'd like to contribute to this sample project, please fork the repository, make your changes, and create a pull request. We welcome contributions and improvements.
-
-## License
-This sample Cypress project is licensed under the MIT License. You are free to use, modify, and distribute it as needed.
-
-
-
-
-
-
-
-
-
-
-
